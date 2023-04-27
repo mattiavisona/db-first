@@ -1,0 +1,15 @@
+ESERCIZIO AUTO MESSE IN VENDITA DAL CONCESSIONARIO
+
+
+Plate - VARCHAR(25) - Primary Key, Notnull, Unique
+Brand - VARCHAR(20) - Notnull
+Model - VARCHAR(30) - Notnull
+Color - VARCHAR(15) - Notnull
+Condition - VARCHAR(50) - Notnull
+Km - MEDIUMINT - Notnull
+Fuel Type - VARCHAR(12) - Notnull
+Year of registration - DATE - Notnull
+Last coupon - DATE - Notnull
+Price without discount - FLOAT(9,2) - Notnull
+Discount - TINYINT - Null
+Price with discount - FLOAT(9,2) - Null
